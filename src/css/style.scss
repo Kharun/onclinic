@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    transition: .3s all;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@import "headertop.scss";
+@import "header.scss";
+@import "beggin.scss";
+@import "direct.scss";
+@import "programms.scss";
+@import "sale.scss";
+@import "doctors.scss";
+@import "rew.scss";
+@import "news.scss";
+@import "social.scss";
+@import "license.scss";
+@import "gps.scss";
+@import "map.scss";
+@import "footernav.scss";
+@import "awards.scss";
+@import "footer.scss";

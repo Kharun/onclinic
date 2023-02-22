@@ -1,0 +1,92 @@
+.rew {
+    padding-bottom: 50px;
+    &__title {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #4299E5;
+        margin-bottom: 40px;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__video {
+        position: relative;
+        width: 396px;
+        height: 222px;
+        background: url('https://www.onclinic.ru/upload/webp/61/61c968430da5881b66fe7a16f31f9878.webp') center/cover no-repeat;
+        border-radius: 10px;
+    }
+    &__play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &__play:hover {
+        opacity: .7;
+    }
+    &__info {
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+    }
+    &__name {
+        display: inline-block;
+        background: #fff;
+        -webkit-box-shadow: 0px 0px 10px #4299e5;
+        box-shadow: 0px 0px 10px #4299e5;
+        border-radius: 5px 5px 0px 0px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 130%;
+        text-transform: uppercase;
+        color: #4299E5;
+        padding: 5px 10px 4px;
+    }
+    &__subname {
+        display: inline-block;
+        background: #4299E5;
+        -webkit-box-shadow: 0px 0px 10px #4299e5;
+        box-shadow: 0px 0px 10px #4299e5;
+        border-radius: 0px 5px 5px 5px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 130%;
+        padding: 7px 10px 3px;
+        b {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+    &__author {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: -0.01em;
+        color: #8E959D;
+    }
+    &__item:nth-child(2) {
+        .rew__video {
+            background: url('https://www.onclinic.ru/upload/webp/f6/f6fe5f3dabddad3f0581c12c438822a1.webp') center/cover no-repeat;
+        }
+    }
+    &__item:last-child {
+        .rew__video {
+            background: url('https://www.onclinic.ru/upload/webp/58/5863e304ba83e93d0b0c7e9d166a4462.webp') center/cover no-repeat;
+        }
+    }
+    &__buttons {
+        text-align: center;
+        margin-top: 30px;
+        button:last-child {
+            margin-left: 5px;
+        }
+    }
+}
+

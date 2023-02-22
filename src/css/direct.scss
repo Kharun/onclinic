@@ -1,0 +1,38 @@
+.direct {
+    padding: 200px 0 30px;
+    &__title {
+        font-weight: 700;
+        font-size: 50px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #4299E5;
+        padding-bottom: 30px;
+    }
+    &__title:last-child {
+        font-size: 30px;    
+        padding-top: 30px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__item {
+        
+    }
+    &__a {
+        padding-bottom: 20px;
+        
+        a {
+            text-decoration: none;
+            color: #4299E5;
+        }
+    }
+    &__a:last-child {
+        padding-bottom: none;
+    }
+    &__a:hover {
+        a {
+            text-decoration-line: underline;
+        }
+    }
+}

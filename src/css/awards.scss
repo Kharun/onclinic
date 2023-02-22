@@ -1,0 +1,20 @@
+.awards {
+    &__item {
+        display: flex;
+        align-items: center;
+        p {
+            padding-left: 40px;
+        }
+    }
+    &__img {
+        width: 70px;
+        height: 79px;
+    }
+    &__content {
+        padding: 50px 0 50px;
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+        border-bottom: 1px solid #143341;
+    }
+}

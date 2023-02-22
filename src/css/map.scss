@@ -1,0 +1,17 @@
+.map {
+    padding-top: 70px;
+    text-align: center;
+    &__content {
+        background: url("https://static.vecteezy.com/system/resources/thumbnails/017/553/390/original/simple-common-moscow-map-background-loop-spinning-around-city-air-footage-seamless-panorama-rotating-over-downtown-backdrop-video.jpg") center/cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:  0 auto;
+        padding: 31px 0 31px;
+        button {
+            margin:  0 auto;
+            z-index: 3;
+            cursor: pointer;
+        }
+    }
+}

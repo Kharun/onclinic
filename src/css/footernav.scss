@@ -1,0 +1,75 @@
+.footernav {
+    padding-top: 40px;
+    
+    &__content {
+        display: flex;
+    }
+    &__items {
+        width: 25%;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.01em;
+        color: #143341;
+        margin-bottom: 20px;
+    }
+    &__subtitle {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.01em;
+        color: #8E959D;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+    &__subtitle:hover {
+        color: #4299E5;
+    }
+    &__bottom {
+        border-bottom: 1px solid #8E959D;
+        padding-bottom: 50px;
+        padding-top: 30px;
+        display: flex;
+        &__items {
+            width: 25%;
+            p {
+                color: #8E959D;
+                font-size: 12px;
+                line-height: 14px;
+                margin-top: 11px;
+            }
+        }
+    }
+    &__link {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.01em;
+        color: #143341;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    &__link:hover {
+        color: #4299E5;
+    }
+    &__number {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+        color: #143341;
+    }
+    &__btn {
+        display: inline-block;
+        text-align: center;
+        padding: 6px 16px;
+        color: #fff;
+        font-size: 15px;
+        line-height: 20px;
+        background: -webkit-gradient(linear, left top, left bottom, from(#EF5545), to(#CF3727)), #CF3727;
+        background: linear-gradient(180deg, #EF5545 0%, #CF3727 100%), #CF3727;
+        border-radius: 20px;
+        border: none;
+        margin-top: 30px;
+    }
+}

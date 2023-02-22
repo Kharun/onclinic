@@ -1,0 +1,213 @@
+.beggin {
+    &__inner {
+        position: relative;
+    }
+    &__del {
+        text-decoration: line-through;
+        color: black !important;
+    }
+    &__block {
+        background: url('https://i1.wp.com/corestep.ru/wp-content/uploads/2016/10/A63B81EE-6FDC-43FE-BEEA-3FA3F186C374.jpeg?fit=2280%2C980&ssl=1') center/cover no-repeat;
+        padding: 60px 30px 420px;
+        height: 600px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 60px;
+        color: #4299E5;
+    }
+    &__subtitle {
+        max-width: 750px;
+        padding: 15px 0 25px;
+        font-size: 20px;
+        line-height: 120%;
+        font-weight: 400;
+        opacity: .8;
+        span {
+            color: red;
+        }
+    }
+    &__btn {
+        cursor: pointer;
+        padding: 12px 20px;
+        font-size: 15px;
+        font-weight: 700;
+        color: #fff;
+        background-color: #4299E5;
+        border-radius: 30px;
+        border: none;
+    }
+    &__btn:hover {
+        opacity: .6;
+        transition: opacity .2s;
+    }
+    .swiper-slide:last-child {
+        .beggin__block {
+            background: none;
+            position: relative;
+        }
+        .beggin__lastslide {
+            display: flex;
+        }
+        .beggin__lastslide__right {
+            width: 50%;
+        }
+        .beggin__lastslide__desc {
+            text-align: center;
+        }
+        .beggin__subtitle {
+            font-weight: 300;
+            margin-top: 15px;
+            font-size: 30px;
+            line-height: 130%;
+            letter-spacing: -0.03em;
+            text-align: center;
+        }
+        .beggin__lastslide__features {
+            justify-content: space-between;
+            display: flex;
+        }
+        .lastslide__features__item {
+            h2 {
+                font-weight: 700;
+                font-size: 45px;
+                color: #4299E5;
+            }
+            p {
+                padding-top: 5px;
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+    }
+    &__img {
+        right: 10px;
+        bottom: 90px;
+        position: absolute;
+        width: 40%;
+    }
+    &__play {
+        display: flex;
+        padding-top: 40px;
+        a {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+            margin-right: 5px;
+            width: 80px;
+            height: 80px;
+            position: relative;
+            z-index: 1;
+        }
+        span {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            margin: 0;
+            background-color: #c2bebe;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+        }
+        h2 {
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: -0.01em;
+            color: #4299E5;
+            padding-left: 20px;
+        }
+        a::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 80px;
+            height: 80px;
+            background: url('https://www.onclinic.ru/home-new-img/play-pl-1.svg') center center no-repeat;
+            background-size: contain;
+            // -webkit-transition: -webkit-transform .8s;
+            // transition: -webkit-transform .8s;
+            // transition: transform .8s;
+            // transition: transform .8s, -webkit-transform .8s;
+            z-index: -1;
+        }
+        a::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 80px;
+            height: 80px;
+            background: url('https://www.onclinic.ru/home-new-img/play-pl-2.svg') center center no-repeat;
+            background-size: contain;
+            // -webkit-transition: -webkit-transform .8s;
+            // transition: -webkit-transform .8s;
+            // transition: transform .8s;
+            // transition: transform .8s, -webkit-transform .8s;
+            z-index: -1;
+        }
+        a:hover {
+            a::before {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    }
+    &__bottom {
+        margin: 0 auto;
+        max-width: 1300px;
+        top: 490px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 3;
+        position: absolute;
+        justify-content: space-between;
+        display: flex;
+        padding: 30px 20px;
+        background: #e6e6e6;
+        -webkit-box-shadow: 0px 24px 34px rgb(66 153 229 / 20%);
+        box-shadow: 0px 24px 34px rgb(66 153 229 / 20%);
+        border-radius: 15px;
+        padding: 40px 40px 30px;
+        &__item {
+            img {
+                margin: 0 auto;
+                max-height: 72px;
+                cursor: pointer;
+            }
+            text-align: center;
+            p {
+                margin-top: 15px;
+                font-size: 15px;
+                line-height: 22px;
+                letter-spacing: -0.01em;
+                color: #143341;
+                cursor: pointer;
+            }
+        }
+        &__item:hover p {
+            color: #4299E5;
+        }
+    }
+    .swiper-pagination {
+        padding-left: 30px;
+        display: flex;
+        padding-bottom: 110px;
+    }
+}

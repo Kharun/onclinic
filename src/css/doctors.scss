@@ -1,0 +1,100 @@
+.doctors {
+    text-align: center;
+    &__title {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: -0.03em;
+        color: #4299E5;
+        margin-bottom: 40px;
+    }
+    &__subtitle {
+        margin-bottom: 20px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: -0.01em;
+        color: #143341;
+    }
+    &__content {
+        display: flex;
+        gap: 20px;
+    }
+    &__item {
+        width: calc(25% - 15px);
+        flex-direction: column;
+        background-color: #fff;
+        -webkit-box-shadow: 0px 5px 15px rgb(10 154 235 / 20%);
+        box-shadow: 0px 5px 15px rgb(10 154 235 / 20%);
+        border-radius: 15px;
+        padding: 30px;
+        text-align: center;
+        position: relative;
+
+        button {
+            margin-top: 170px;
+        }
+    }
+    &__image {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding-top: 70px;
+        top: 30px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    &__name {
+        padding-top: 150px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.03em;
+        color: #071318;
+    }
+    &__subname {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.03em;
+        color: #071318;
+        margin-top: 16px;
+    }
+    &__a {
+        margin-top: 16px;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.03em;
+        padding-bottom: 3px;
+        a {
+            color: #4299E5;
+            cursor: pointer;
+        }
+    }
+    &__a:last-child {
+        padding-bottom: none;
+    }
+    &__a:hover {
+        text-decoration: none;
+    }
+    &__block {
+        height: 238px;
+    }
+    .swiper-pagination {
+        display: none;
+    }
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 140px !important;
+    left: auto ;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 140px !important;
+    right: auto ;
+}
+//358

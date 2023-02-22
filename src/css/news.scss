@@ -1,0 +1,60 @@
+.news {
+    &__title {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #4299E5;
+        margin-bottom: 40px;
+    }
+    &__content {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    &__item {
+        width: calc(33.33333% - 13.33333px);
+    }
+    &__image {
+        width: 396px;
+        height: 222px;
+        background: url("https://www.onclinic.ru/upload/webp/38/388a7320104cee59611da3d3b0b5a8a3.webp") center/cover no-repeat;
+    }
+    &__item:nth-child(2) {
+        .news__image {
+            background: url("https://www.onclinic.ru/upload/webp/8a/8ab9195677d10de1e5d5862dc6189489.webp") center/cover no-repeat;
+        }
+    }
+    &__item:last-child {
+        .news__image {
+            background: url("https://www.onclinic.ru/upload/webp/0c/0c342bb92e09e7f3858dc4e1b452fde0.webp") center/cover no-repeat;
+        }
+    }
+    &__data {
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: -0.01em;
+        color: #8E959D;
+    }
+    &__name {
+        margin-top: 5px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.03em;
+        color: #4299E5;
+    }
+    &__subname {
+        margin-top: 5px;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.01em;
+        color: #143341;
+    }
+    &__btn {
+        text-align: center;
+        margin-top: 30px;
+    }
+}

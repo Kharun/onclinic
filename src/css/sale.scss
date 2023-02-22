@@ -1,0 +1,81 @@
+.sale {
+    &__title {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #4299E5;
+        padding-bottom: 40px;
+    }
+    &__content {
+        display: flex;
+        gap: 40px;
+    }
+    &__item {
+        cursor: pointer;
+        width: 50%;
+        background-color: #fff;
+        -webkit-box-shadow: 0px 5px 15px rgb(0 0 0 / 10%);
+        box-shadow: 0px 5px 15px rgb(0 0 0 / 10%);
+        border-radius: 15px;
+        overflow: hidden;
+    }
+    &__img {
+        width: 100%;
+    }
+    &__block {
+        display: flex;
+        padding: 20px 40px 30px;
+    }
+    &__left {}
+    &__name {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+    }
+    &__name:hover {
+        color: #4299E5;
+    }
+    &__subname, &__data {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.03em;
+        color: #8E959D;
+        margin-top: 10px;
+    }
+    &__right {
+        padding-left: 10px;
+    }
+    &__sale {
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 35px;
+        text-align: right;
+        width: 110px;
+        letter-spacing: -0.03em;
+        color: #CF3727;
+    }
+    &__button {
+        text-align: center;
+        padding: 30px 0 60px;
+    }
+    &__btn {
+        background: linear-gradient(180deg, #FFFFFF 0%, #EAF5FF 100%);
+        border: 1px solid #4299E5;
+        box-shadow: 0px 4px 8px rgb(10 154 235 / 30%);
+        border-radius: 50px;
+        font-size: 18px;
+        line-height: 45px;
+        text-align: center;
+        color: #4299E5;
+        padding: 0 20px;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+    &__btn:hover {
+        background: #4299E5;
+        transition: .2s linear;
+        color: #fff;
+    }
+}
